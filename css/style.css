@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background-color: red;
+    background-color: rgb(248, 167, 167);
+    background-color: #88888830;
+    margin-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    text-shadow: 2px 2px 3px #00000030;
+}
+
+h2 {
+    margin: 20px 10px;
+    color: green;
+}
+
+#pai{
+    border: 2px solid red;
+    padding-bottom: 8px;
+    margin: 8px;
+}
+
+#filho{
+    border: 2px solid blue;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* margin-bottom: 8px; */
+}
+
+.lista{
+    list-style: none;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #00000060;
+}
+
+input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid red;
+}
